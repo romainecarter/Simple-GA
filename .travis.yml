@@ -1,2 +1,4 @@
 language: csharp
+script:
+  - xbuild /p:Configuration=Debug Simple-GA.sln
 
